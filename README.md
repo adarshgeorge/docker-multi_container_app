@@ -1,5 +1,11 @@
 ## Creating Multi Container App using Flask Container and Redis
 
+A DevOps Project to display Location of IP address.
+
+![alt HelloWorld](https://github.com/adarshgeorge/docker-multi_container_app/blob/master/png/Search.png)
+
+
+
 ### Pre-Requisite
 An Server/EC2 with docker installed. 
 
@@ -47,3 +53,21 @@ docker run \
 adarshgeorge999/ipstackapp:1
 ```
 
+**Flowchart**
+
+![alt Flowchart](https://github.com/adarshgeorge/docker-multi_container_app/blob/master/png/flowchart.png) 
+
+Now browse the hostname or IP addresss
+
+![alt Search](https://github.com/adarshgeorge/docker-multi_container_app/blob/master/png/Searching.png) 
+
+Output
+
+![alt Out1](https://github.com/adarshgeorge/docker-multi_container_app/blob/master/png/output1.png) 
+
+Now again search the same IP address to verify the IP address is cached in reddis container. 
+
+![alt Out2](https://github.com/adarshgeorge/docker-multi_container_app/blob/master/png/result.png) 
+
+
+## That's it!!
