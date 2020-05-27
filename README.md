@@ -44,6 +44,6 @@ docker run \
 -e REDIS_CACHE=600 \
 -e FLASK_PORT=8080 \
 -e IPSTACK_KEY='91e59ddd65394199ad3f905d35532479' \
-fujikomalan/ipstackapp:1
+adarshgeorge999/ipstackapp:1
 ```
 
