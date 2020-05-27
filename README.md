@@ -49,21 +49,18 @@ docker run \
 -e REDIS_HOST=ipstack-cache \
 -e REDIS_CACHE=600 \
 -e FLASK_PORT=8080 \
--e IPSTACK_KEY='91e59ddd65394199ad3f905d35532479' \
+-e IPSTACK_KEY='91e59ddd65394199ad3f905d35532419' \
 adarshgeorge999/ipstackapp:1
 ```
 
-**Flowchart**
-
-![alt Flowchart](https://github.com/adarshgeorge/docker-multi_container_app/blob/master/png/flowchart.png) 
-
-Now browse the hostname or IP addresss
+**Output**
 
 ![alt Search](https://github.com/adarshgeorge/docker-multi_container_app/blob/master/png/Searching.png) 
 
-Output
 
-![alt Out1](https://github.com/adarshgeorge/docker-multi_container_app/blob/master/png/output1.png) 
+
+![alt Out1](https://github.com/adarshgeorge/docker-multi_container_app/blob/master/png/out1.png) 
+
 
 Now again search the same IP address to verify the IP address is cached in reddis container. 
 
